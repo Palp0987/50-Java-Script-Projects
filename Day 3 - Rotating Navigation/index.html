@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotating Navigation</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container ">
+      <div class="circle-container">
+        <div class="circle">
+          <button id="close"><i class="bx bx-x"></i></button>
+          <button id="open"><i class="bx bx-menu"></i></button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="content">
+          <div class="right">
+            <h3>Mountain</h3>
+            <h1>Himalayan Range</h1>
+            <p>
+              The Himalayas is the highest mountain range in the world, and has
+              9 out of 10 of the world's highest peaks, including Mount Everest.
+              These mountains, referred to as the Third Pole, are the source of
+              some of Asia's major rivers and also help to regulate our planet's
+              climate. For centuries people here have developed a unique culture
+              that weaves nature and people together into the same fabric of
+              life. The region is the birthplace of the Buddha, and is full of
+              sacred natural sites such as secret valleys and high mountain
+              lakes that predate ancient Hinduism.
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGltYWxheWF8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1512036594830-51cea3a8df78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGltYWxheWF8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1619796694172-47fcc5486e41?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aGltYWxheWF8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1534474601473-7a9798e26582?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhpbWFsYXlhfGVufDB8MXwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1626189400874-acf93a7b1b1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGhpbWFsYXlhfGVufDB8MXwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://images.unsplash.com/photo-1602590341545-4b2051c0dba5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhpbWFsYXlhfGVufDB8MXwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+            </div>
+          </div>
+          
+          <div class="swiper-pagination"></div>
+          <div class="autoplay-progress">
+            <svg viewBox="0 0 48 48">
+              <circle cx="24" cy="24" r="20"></circle>
+            </svg>
+            <span></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- show-nav -->
+    </div>
+
+    <nav>
+      <a href="#"><i class="bx bx-home-alt"></i>Home</a>
+      <a href="#"><i class="bx bx-user-pin"></i>About</a>
+      <a href="#"><i class="bx bxs-contact"></i>Contact</a>
+    </nav>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
